@@ -101,8 +101,9 @@ color:#fff
     scroll-behavior: smooth;
 }
 /* hiden scrolling */
-.movie-category::-webkit-scrollbar{
+.movie-container::-webkit-scrollbar{
     display: none;
+    /* opacity: 0; */
 }
 
 .movie{
