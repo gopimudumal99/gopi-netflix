@@ -9,6 +9,15 @@ app.use(express.static(initial_path)) //express.static() method to make public f
 app.get("/", (req, res) => { 
     res.sendFile(path.join(initial_path, "index.html"));
 })
+
+app.get("/:id", (req, res) => { 
+    res.sendFile(path.join(initial_path,"about.html"))
+})
+
+app.use((req, res) => { 
+    res.json("404")
+})
+
 app.listen("3000", (req,res) => { 
     console.log("Listening on port ...3000")
 })
