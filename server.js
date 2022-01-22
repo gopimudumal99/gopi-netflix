@@ -8,7 +8,7 @@ let app = express();
 app.use(express.static(initial_path)) //express.static() method to make public folder as a static path
 
 app.get("/", (req, res) => { 
-    res.sendFile(path.join(initial_path, "index.html"));
+    res.sendFile(path.join(initial_path, "Public/js/index.html"));
 })
 
 app.get("/:id", (req, res) => { 
