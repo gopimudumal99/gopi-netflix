@@ -1,1 +1,2 @@
-web:nodemon server.js
+web:node www/server.js
+

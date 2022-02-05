@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/gopimudumal99/Movie_app#readme",
   "dependencies": {
+    "dotenv": "^14.2.0",
     "express.js": "^1.0.0",
     "nodemon": "^2.0.15"
   }
