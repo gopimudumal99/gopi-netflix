@@ -27,6 +27,18 @@ Javascript, HTML, CSS, Node.js...
 **Server:** Node, Express
 
 
+## Screenshots
+
+![App Screenshot](https://i.postimg.cc/4xg5k9j2/1.png)
+
+![2.png](https://i.postimg.cc/pXYjj11k/2.png)
+
+![3.png](https://i.postimg.cc/SKwR3WvJ/3.png)
+
+
+
+
+
 ## API Reference
 
 #### Get all items
