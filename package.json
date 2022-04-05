@@ -8,17 +8,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gopimudumal99/Movie_app.git"
+    "url": "git+https://github.com/gopimudumal99/gopi-netflix.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gopimudumal99/Movie_app/issues"
+    "url": "https://github.com/gopimudumal99/gopi-netflix/issues"
   },
-  "homepage": "https://github.com/gopimudumal99/Movie_app#readme",
+  "homepage": "https://github.com/gopimudumal99/gopi-netflix#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^14.2.0",
     "express.js": "^1.0.0",
     "nodemon": "^2.0.15"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
